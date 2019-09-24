@@ -1,5 +1,5 @@
 const sentence = "hello there from lighthouse labs";
-let time = 1000;
+let time = 0;
 const animatedSentence = function (sentence) {
     for (const char of sentence) {
         setTimeout(() => {
